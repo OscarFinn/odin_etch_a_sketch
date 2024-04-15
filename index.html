@@ -7,6 +7,15 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div class="container"></div>
+        <div class ="container">
+            <h1>Etch-A-Sketch!</h1>
+            <div class="slidercontainer">
+                <input type="range" min="1" max="100" value="16" id="gridsize" oninput="slidervalue.innerText=this.value">
+                <span>Grid Size: </span><span id="slidervalue">16</span>
+                <button onclick="makeGrid()">Generate grid</button>
+            </div>
+            <div class="gridcontainer"></div>
+        </div>
+        
     </body>
 </html>
