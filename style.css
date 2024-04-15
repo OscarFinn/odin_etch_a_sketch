@@ -1,0 +1,12 @@
+.container {
+    display:flex;
+    flex-wrap:wrap;
+    margin:0 48vh;
+}
+.gridSquare {
+    width:6.25%;
+    aspect-ratio: 1 / 1;
+    border:1px solid red;
+    
+    box-sizing:border-box;
+}
