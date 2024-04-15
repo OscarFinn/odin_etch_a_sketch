@@ -9,3 +9,9 @@ for(let i=0;i<gridSize;i++) {
         grid.appendChild(gridSquare);
     }
 }
+const squares = document.querySelectorAll(`.gridSquare`);
+squares.forEach((square) => {
+    square.addEventListener("mouseover",() => {
+        square.addEventListener("mouseover",square.style.backgroundColor = "blue");
+    });
+ });

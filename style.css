@@ -6,7 +6,6 @@
 .gridSquare {
     width:6.25%;
     aspect-ratio: 1 / 1;
-    border:1px solid red;
-    
+    border:1px solid red; 
     box-sizing:border-box;
 }
