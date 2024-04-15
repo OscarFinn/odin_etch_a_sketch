@@ -1,11 +1,17 @@
 .container {
+    margin:0 32vh;
+}
+.gridcontainer {
+    width:100%;
     display:flex;
     flex-wrap:wrap;
-    margin:0 48vh;
+    border:2px solid black;
 }
-.gridSquare {
-    width:6.25%;
+.gridsquare {
     aspect-ratio: 1 / 1;
-    border:1px solid red; 
+    border:1px solid grey; 
     box-sizing:border-box;
+}
+.slider {
+    width:100%;
 }
