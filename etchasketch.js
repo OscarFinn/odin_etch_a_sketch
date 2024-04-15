@@ -5,13 +5,10 @@ for(let i=0;i<gridSize;i++) {
     for(let j=0;j<gridSize;j++){
         const gridSquare = document.createElement('div');
         gridSquare.classList.add("gridSquare");
-        gridSquare.textContent = `${i},${j}`;
+        gridSquare.addEventListener("mouseover",() => {
+            gridSquare.style.backgroundColor = "blue";
+        })
+        //gridSquare.textContent = `${i},${j}`;
         grid.appendChild(gridSquare);
     }
 }
-const squares = document.querySelectorAll(`.gridSquare`);
-squares.forEach((square) => {
-    square.addEventListener("mouseover",() => {
-        square.addEventListener("mouseover",square.style.backgroundColor = "blue");
-    });
- });
