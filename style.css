@@ -1,5 +1,5 @@
 .container {
-    margin:0 32vh;
+    margin:0 32vw;
 }
 .gridcontainer {
     width:100%;
@@ -9,7 +9,6 @@
 }
 .gridsquare {
     aspect-ratio: 1 / 1;
-    border:1px solid grey; 
     box-sizing:border-box;
 }
 .slider {
